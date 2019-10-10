@@ -1,0 +1,45 @@
+
+<div class="row mt-5">
+<div class="com-md-6 m-auto">
+        <h1>Residential application form</h1>
+        <a href="/" class="text-center">Home</a>
+        
+    <form action="hall-application" method="POST" class="form">
+        <div class="form-group">
+            <label for="studentID">Select Hall</label>
+            <select name="halls" id="halls" class="form-control" required>
+                <option value=""></option>
+                <option name="mensahSarbah" id="mensahSarbah" value="Mensah Sarbah Hall">Mensah Sarbah Hall</option>
+                <option value="Commonwealth Hall">Commonwealth Hall</option>
+                <option value="Legon Hall">Legon Hall</option>
+                <option value="Akuafu Hall">Akuafu Hall</option>
+            </select>
+        </div>
+        <div class="form-group">
+            <label for="hallBlock">Select Block</label>
+            <select name="hallBlock" id="hallBlock" class="form-control" required>
+                <option value=""></option>
+                <option value="Main Hall">Main Hall</option>
+                <option value="Annex A">Annex A</option>
+                <option value="Annex B">Annex B</option>
+                <option value="Annex C">Annex C</option>
+                <option value="Annex D">Annex D</option>
+            </select>        
+        </div>
+        <div class="form-group">
+                <label for="roomNumber">Select Room</label>
+                <select name="roomNumber" id="roomNumber" class="form-control" required>
+                    <option value=""></option>
+                    <option value="101">101</option>
+                    <option value="102">102</option>
+                    <option value="103">103</option>
+                    <option value="104">104</option>
+                    <option value="105">105</option>
+                </select>        
+            </div>
+        <div class="form-group">
+            <input type="submit" name="submit" id="submit" class="btn-primary btn-block form-control">
+        </div>  
+    </form>
+</div>
+</div>
